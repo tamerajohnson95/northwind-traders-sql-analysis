@@ -143,6 +143,44 @@ Review the **21 missing shipped dates** before conducting fulfillment-time or sh
 - `northwind_analysis.sql` — Complete SQL analysis
 - `screenshots/` — Selected SQL queries and results demonstrating key analyses
 
+## Analysis Examples
+
+### Top Revenue-Generating Products
+
+This analysis ranks products by total revenue after accounting for discounts.
+
+![Top Revenue Products](screenshots/top-products-sql.png)
+
+### Top Revenue-Generating Customers
+
+Customer revenue was calculated by joining the customers, orders, and order details tables.
+
+![Top Revenue Customers](screenshots/top-customers-sql.png)
+
+### Revenue by Product Category
+
+This analysis compares total revenue across Northwind's product categories.
+
+![Category Revenue](screenshots/category-revenue-sql.png)
+
+### Monthly Revenue Trends
+
+Monthly revenue was calculated using SQLite date functions to evaluate sales performance over time.
+
+![Monthly Revenue](screenshots/monthly-revenue-sql.png)
+
+### Customer Segmentation
+
+Customers with order activity were classified into High-, Medium-, and Low-Value segments using `CASE WHEN` and total revenue.
+
+![Customer Segmentation](screenshots/customer-segmentation-sql.png)
+
+### Data Quality Validation
+
+SQL data-quality checks were used to identify missing, invalid, duplicate, and unmatched records.
+
+![Data Quality](screenshots/data-quality-sql.png)
+
 ## Conclusion
 
 This project demonstrates how SQL can be used to move from raw relational data to business-focused analysis. The workflow included data exploration, aggregation, multi-table analysis, customer segmentation, time-based analysis, and data-quality validation.
