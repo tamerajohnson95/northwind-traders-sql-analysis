@@ -149,37 +149,37 @@ Review the **21 missing shipped dates** before conducting fulfillment-time or sh
 
 This analysis ranks products by total revenue after accounting for discounts.
 
-![Top Revenue Products](screenshots/top-products-sql.png)
+![Top Revenue Products](top-products-sql.png)
 
 ### Top Revenue-Generating Customers
 
 Customer revenue was calculated by joining the customers, orders, and order details tables.
 
-![Top Revenue Customers](screenshots/top-customers-sql.png)
+![Top Revenue Customers](top-customers-sql.png)
 
 ### Revenue by Product Category
 
 This analysis compares total revenue across Northwind's product categories.
 
-![Category Revenue](screenshots/category-revenue-sql.png)
+![Category Revenue](category-revenue-sql.png)
 
 ### Monthly Revenue Trends
 
 Monthly revenue was calculated using SQLite date functions to evaluate sales performance over time.
 
-![Monthly Revenue](screenshots/monthly-revenue-sql.png)
+![Monthly Revenue](monthly-revenue-sql.png)
 
 ### Customer Segmentation
 
 Customers with order activity were classified into High-, Medium-, and Low-Value segments using `CASE WHEN` and total revenue.
 
-![Customer Segmentation](screenshots/customer-segmentation-sql.png)
+![Customer Segmentation](customer-segmentation-sql.png)
 
 ### Data Quality Validation
 
 SQL data-quality checks were used to identify missing, invalid, duplicate, and unmatched records.
 
-![Data Quality](screenshots/data-quality-sql.png)
+![Data Quality](data-quality-sql.png)
 
 ## Conclusion
 
